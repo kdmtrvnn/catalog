@@ -34,8 +34,6 @@ class CatalogController extends Controller
                 'book_id' => $book->id,
             ]);
         }
-
-        return redirect('/');
     }
 
     public function getBooks()
@@ -104,8 +102,7 @@ class CatalogController extends Controller
         foreach($diff as $item) {
             AuthorBook::where([['author_id', $item], ['book_id', $book->id]])->delete();
         }
-    }
-        return redirect('/');
+      }
     }
 
     public function show()

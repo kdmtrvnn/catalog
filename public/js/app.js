@@ -28362,6 +28362,9 @@ function Create() {
               return _context2.abrupt("return");
 
             case 11:
+              window.location.href = '/admin/books/get';
+
+            case 12:
             case "end":
               return _context2.stop();
           }
@@ -28584,6 +28587,9 @@ function Update() {
               return _context2.abrupt("return");
 
             case 11:
+              window.location.href = '/admin/books/get';
+
+            case 12:
             case "end":
               return _context2.stop();
           }

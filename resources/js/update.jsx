@@ -30,6 +30,8 @@ export default function Update() {
 
       return;
     }
+
+    window.location.href = '/admin/books/get';
   };
 
   return (
